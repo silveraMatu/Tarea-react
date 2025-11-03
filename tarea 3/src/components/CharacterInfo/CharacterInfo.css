@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+
+.card{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: #fafafa;
+  max-width: 700px;
+}
+
+h1, .Portrait{
+  margin: auto;
+  margin-bottom: 10px;
+  font-family: "Rock Salt", cursive;
+  font-size: medium;
+}
+
+.CharacterName{
+  margin: auto;
+  margin-bottom: 50px;
+  color: #f8db27;
+  -webkit-text-stroke: 1px black;
+  font-size: 3.2em;
+}
+
+p{
+  margin: auto;
+  margin-bottom: 10px;
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+}
+
+.Portrait{
+  background-color: rgb(226, 232, 232);
+  width:250px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.Portrait:hover{
+  width:270px;
+  height: 270px;
+  transition: ease-in-out;
+  transition: 0.1s;
+}
