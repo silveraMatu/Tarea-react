@@ -15,7 +15,7 @@ export const useFetch = (url)=>{
         if(!res.ok) throw new Error("Error al obtener los datos")
   
         const dataAPI = await res.json()
-        await new Promise(resolve => setTimeout(resolve, 500))
+        await new Promise(resolve => setTimeout(resolve, 350))
         setData(dataAPI)
         setLoading(false)
         
