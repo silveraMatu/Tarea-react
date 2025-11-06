@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+
+.Buttons{
+  display: flex;
+  justify-content: space-between
+}
+
+.BackButton, .NextButton{
+  margin: 4px 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+}
+
+.BackButton:hover{
+  font-size: xx-large;
+  font-weight: 700;
+  padding: 15px;
+  background-color: #f8db27;
+  color: aliceblue;
+  cursor: pointer;
+  transition: 0.1s;
+  -webkit-text-stroke: 1px black;
+}
+
+.NextButton:hover{
+  font-size: xx-large;
+  font-weight: 700;
+  padding: 15px;
+  background-color: #f8db27;
+  color: aliceblue;
+  cursor: pointer;
+  transition: 0.1s;
+  -webkit-text-stroke: 1px black;
+}

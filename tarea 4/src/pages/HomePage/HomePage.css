@@ -1,0 +1,4 @@
+.Hero{
+  display: flex;
+  flex-direction: column;
+}
